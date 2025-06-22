@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prarambh Advanced Training & Research Centre</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- Content placeholder -->
-    <h1>Welcome to Prarambh</h1>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prarambh Advanced Training & Research Centre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #d66500;
+      --brand-dark: #a74d00;
+      --dark: #1e1e1e;
+      --light: #f9f9f9;
+      --gray: #6c757d;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      color: var(--dark);
+      background: var(--light);
+      line-height: 1.6;
+    }
+    .text-content {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .text-content h2 {
+      color: var(--brand);
+      margin-top: 2rem;
+    }
+    .text-content p,
+    .text-content ul {
+      margin-top: 1rem;
+      color: #333;
+    }
+    .text-content ul {
+      padding-left: 1.5rem;
+    }
+    .text-content li {
+      margin-bottom: 0.5rem;
+    }
+    .gallery-section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <section class="text-content">
+    <h2>About Prarambh</h2>
+    <p>At Prarambh, we are committed to nurturing talent...</p>
+    <!-- Truncated for brevity -->
+  </section>
+
+  <section class="gallery-section">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Student Achievements & Highlights</h2>
+    <div class="gallery-grid">
+      <img src="images/img1.jpg" alt="SOF medal">
+      <img src="images/img2.jpg" alt="Mentor group">
+      <img src="images/img3.jpg" alt="Winner photo">
+      <img src="images/img4.jpg" alt="Trophy student">
+      <img src="images/img5.jpg" alt="Mentoring moment">
+      <img src="images/img6.jpg" alt="Published author">
+      <img src="images/img7.jpg" alt="Focused student">
+      <img src="images/img8.jpg" alt="Group class">
+    </div>
+  </section>
+</body>
 </html>
